@@ -2,11 +2,27 @@ body {
     font-family: 'Times New Roman';
 }
 
-nav {
-    font-size: 30px;
-}
-
 img {
     height: 100%;
     width: 100%;
 }
+
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 100px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+nav {
+    font-size: 30px;
+}
+
+nav ul {
+    text-align: center;
+}
+
