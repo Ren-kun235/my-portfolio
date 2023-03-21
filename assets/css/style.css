@@ -50,6 +50,11 @@ ul p a {
 
 /* # use flex: 2 0 ?px(s) flex: (growth#) (shrink#) (initial# px(s))*/
 
+#mainArticle {
+    flex: 1 0 20px;
+    
+}
+
 .workPortfolio {
     display: flex;
     flex-wrap: wrap;
@@ -64,4 +69,5 @@ ul p a {
 .heroTitle {
     position: absolute;
     bottom: 0px;
+    color: darkblue;
 }
