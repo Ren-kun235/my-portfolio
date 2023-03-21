@@ -48,3 +48,9 @@ ul p a {
     font-weight: bold;
 }
 
+.workPortfolio {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
