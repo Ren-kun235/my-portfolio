@@ -34,6 +34,14 @@ h2 p {
     font-family: 'Times New Roman', Times, serif;
 }
 
+h3 {
+    position: absolute;
+    bottom: -50px;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 section img {
     width: 110px;
     height: 150px;
@@ -62,19 +70,33 @@ ul p a {
 
 #mainArticle {
     flex: 1 0 20px;
-    
+    position: relative;
 }
 
 #mainArticle img {
+    width: 400px;
+    height: auto;
+}
+
+#subArticles {
     display: flex;
-    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
 }
 
 .workPortfolio {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
+}
+
+.conditions {
+    width: 45%;
+    position: relative;
 }
 
 .hero {
@@ -83,6 +105,6 @@ ul p a {
 
 .heroTitle {
     position: absolute;
-    bottom: 0px;
-    color: darkblue;
+    bottom: -50px;
+    color: blue;
 }
