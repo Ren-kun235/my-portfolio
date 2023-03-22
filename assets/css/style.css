@@ -7,6 +7,16 @@ header img {
     width: 100vw;
 }
 
+header nav ul{
+    display: flex;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    background-color: green;
+    justify-content: space-around;
+    margin: 0px;
+}
+
 h1 {
     font-family:'Times New Roman', Times, serif;
     font-size: 100px;
@@ -53,6 +63,11 @@ ul p a {
 #mainArticle {
     flex: 1 0 20px;
     
+}
+
+#mainArticle img {
+    display: flex;
+    margin: 10px;
 }
 
 .workPortfolio {
