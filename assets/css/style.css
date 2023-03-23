@@ -90,10 +90,6 @@ ul p a {
     font-weight: bold;
 }
 
-footer {
-    background-color: purple;
-}
-
 /* # use flex: 2 0 ?px(s) flex: (growth#) (shrink#) (initial# px(s))*/
 
 #mainArticle {
