@@ -1,3 +1,8 @@
+* {
+    background-color: lightblue;
+}
+
+
 body {
     font-family: 'Times New Roman';
 }
@@ -40,6 +45,7 @@ h3 {
     font-weight: bold;
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
+    background-color: transparent;
 }
 
 section img {
@@ -55,14 +61,31 @@ nav ul {
     text-align: center;
 }
 
+nav ul a {
+    color: lightblue;
+    background-color: transparent;
+}
+
+section ul {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgreen;
+}
+
+section ul p {
+    background-color: purple;
+}
+
 ul p {
     display:flex;
     text-align: center;
     font-weight: bold;
     font-size: 15px;
+    justify-content: center;
 }
 
 ul p a {
+    display: flex;
     font-weight: bold;
 }
 
@@ -86,6 +109,10 @@ ul p a {
     width: 100vw;
 }
 
+#contact {
+    background-color: purple;
+}
+
 .workPortfolio {
     display: flex;
     flex-wrap: wrap;
@@ -107,4 +134,5 @@ ul p a {
     position: absolute;
     bottom: -50px;
     color: blue;
+    background-color: transparent;
 }
